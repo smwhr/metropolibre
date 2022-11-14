@@ -98,6 +98,11 @@ a.sidebar-nav-item:focus {
 .sidebar-nav-item.active {
   font-weight: bold;
 }
+.sidebar-logo{
+  max-width: 80%;
+  margin-left: 10%;
+  margin-bottom: 2em;
+}
 
 /* Sticky sidebar
  *
