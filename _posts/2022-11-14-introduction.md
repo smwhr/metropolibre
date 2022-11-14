@@ -1,4 +1,7 @@
-# Métropolibre, la cité libre
+---
+layout: post
+title: 
+---
 
 > _Après avoir traversé, des heures durant, l'aride désert qui entoure Métropolibre, vous êtes enfin arrivé au pied de la Cité Urbaine. Il va maintenant falloir y entrer et vous y faire une place. N'ayez crainte, l'espace est grand et malgré ses 12 000 000 d'habitants, vous vous sentirez parfois bien seul dans les couloirs de la Cité Libre._
 
