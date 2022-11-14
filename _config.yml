@@ -9,8 +9,8 @@ permalink:        pretty
 title:            Métropolibre
 tagline:          "la cité libre"
 description:      "La cité libre de Métropolibre, jeu de rôle persistant en ligne mêlant exploration et politique au sein d'une cité-état tentaculaire."
-url:              http://smwhr.github.io/metropolibre
-baseurl:          /metropolibre
+url:              https://smwhr.github.io/metropolibre
+baseurl:          https://smwhr.github.io/metropolibre/
 
 author:
   name:           'smwhr'
