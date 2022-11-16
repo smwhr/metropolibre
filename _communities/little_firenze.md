@@ -6,6 +6,7 @@ picture: pics/little_firenze.jpg
 ---
 
 > Plus personne ne savait comment la voute de briques sous laquelle la population de Little Firenze vaquait quotidiennement avait été construite. Un sondage auprès de plusieurs personnes plus ou moins haut placées dans la hiérarchie Petit-Florentine avait été un échec complet. Lors des interviews on a pu cependant constater une certaine inquiétude quant à la pérénnité des lieux
+
 <cite>&mdash; Ermenando LaVilla, 7e Exploration</cite>
 
 ## Ambiance
