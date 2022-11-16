@@ -86,6 +86,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.25;
   color: #313131;
   text-rendering: optimizeLegibility;
+  font-family: "Abril Fatface", serif;
 }
 h1 {
   font-size: 2rem;
@@ -375,6 +376,17 @@ tbody tr:nth-child(odd) th {
 }
 .related-posts li a:hover small {
   color: inherit;
+}
+
+@media (min-width: 48em) {
+  .community-picture{
+    z-index: -1;
+    position: absolute;
+    opacity: 0.8;
+    max-width: 349px;
+    right: 1em;
+
+  }
 }
 
 

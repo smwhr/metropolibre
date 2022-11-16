@@ -20,7 +20,7 @@ layout: default
       <li>
         <h3>
           {{ post.date | date_to_string }}
-          <a href="{{ post.url }}">
+          <a href="{{ post.url | relative_url }}">
             {{ post.title }}
           </a>
           by {{ post.author }}
