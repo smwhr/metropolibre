@@ -26,4 +26,7 @@ github:
 
 # Contents
 collections:
-  - blurbs
+  blurbs:
+    output: false
+  communities:
+    output: true
