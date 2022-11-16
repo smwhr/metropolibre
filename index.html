@@ -3,10 +3,10 @@ layout: default
 title: Home
 ---
 
-{%- assign about = site.pages | where: 'title', 'Introduction' | first-%}
+{%- assign about = site.contents | where: 'title', 'Introduction' | first-%}
 
 <ul>
-{% for p in site.pages %}
+{% for p in site.contents %}
   <li><a href="{{ post.url }}">{{p.title}}</a></li>
 {% endfor %}
 </ul>
