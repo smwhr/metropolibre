@@ -3,6 +3,12 @@ layout: default
 title: Home
 ---
 
+{%- assign about = site.pages | where: 'title', 'Introduction' | first-%}
+
+<div class="post">
+  {{ about.content }}
+</div>
+
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
