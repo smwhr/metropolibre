@@ -378,12 +378,11 @@ tbody tr:nth-child(odd) th {
   color: inherit;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 64em) {
   .community-picture{
     z-index: -1;
     position: absolute;
-    opacity: 0.8;
-    max-width: 349px;
+    max-width: 350px;
     right: 1em;
 
   }
