@@ -1,6 +1,6 @@
 ---
 layout: community
-name: Little Firenze
+title: Little Firenze
 key_people: Brun Le Litchi
 picture: pics/little_firenze.jpg
 ---

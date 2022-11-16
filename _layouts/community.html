@@ -4,23 +4,23 @@ layout: default
 
 <div class="post">
  {% if page.picture%}
-    <img class="community-picture" src="{{ site.baseurl }}public/{{page.picture}}" alt="Vue de {{page.name}}" />
+    <img class="community-picture" src="{{ site.baseurl }}public/{{page.picture}}" alt="Vue de {{page.title}}" />
  {% endif %}
-  <h1 class="post-title">{{ page.name }}</h1>
+  <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.key_people }}</span>
   {{ content }}
 </div>
 
 <div class="related">
   <h2>Explorations passées de cette communauté</h2>
-  {%- assign explorations = site.explorations | where: 'community', page.name -%}
+  {%- assign explorations = site.explorations | where: 'community', page.title -%}
   {% if explorations %}
   <ul class="related-posts">
-    {% for post in site.explorations | where: 'community', page.name %}
+    {% for post in site.explorations | where: 'community', page.title %}
       <li>
         <h3>
           {{ post.date | date_to_string }}
-          <a href="{{ post.url | relative_url }}">
+          <a href="{{ post.url }}">
             {{ post.title }}
           </a>
           by {{ post.author }}
