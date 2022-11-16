@@ -3,11 +3,11 @@ layout: default
 title: Home
 ---
 
-{%- assign about = site.contents | where: 'title', 'Introduction' | first-%}
+{%- assign about = site.blurbs | where: 'title', 'Introduction' | first-%}
 
 <ul>
-{% for p in site.contents %}
-  <li><a href="{{ post.url }}">{{p.title}}</a></li>
+{% for p in site.blurbs %}
+  <li>{{p.title}}</li>
 {% endfor %}
 </ul>
 

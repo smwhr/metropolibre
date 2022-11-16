@@ -23,3 +23,7 @@ version:          1.0.0
 
 github:
   repo:           https://github.com/smwhr/metropolibre
+
+# Contents
+collections:
+  - blurbs
