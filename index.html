@@ -5,6 +5,12 @@ title: Home
 
 {%- assign about = site.pages | where: 'title', 'Introduction' | first-%}
 
+<ul>
+{% for p in site.pages %}
+  <li>{p.title}</li>
+{% endfor %}
+</ul>
+
 <div class="post">
   {{ about.content }}
 </div>
