@@ -4,13 +4,16 @@ title: Communautés
 ---
 
 <div class="post">
-<ul>
-{% for community in site.communities %}
-  <li style="list-style-type: '\2192 '">
-      <a href="{{ community.url | relative_url }}">
-        {{ community.title }}
-      </a>
-  </li>
-{% endfor %}
+  <p>
+    Métropolibre est immense. Ci-dessous, la liste des communautés auquel l'Ordre des Explorateurs a déjà rendu visite.
+  </p>
+  <ul>
+  {% for community in site.communities %}
+    <li style="list-style-type: '\2192 '; padding-left: 1em;">
+        <a href="{{ community.url | relative_url }}">
+          {{ community.title }}
+        </a>
+    </li>
+  {% endfor %}
 </ul>
 </div>

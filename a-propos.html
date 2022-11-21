@@ -1,0 +1,11 @@
+---
+layout: page
+title: À propos
+---
+
+
+{%- assign about = site.blurbs | where: 'title', 'À propos' | first-%}
+
+<div class="post">
+  {{ about.content }}
+</div>
