@@ -30,3 +30,5 @@ collections:
     output: false
   communities:
     output: true
+  guides:
+    output: true
