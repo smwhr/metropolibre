@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<a href="{{ site.baseurl }}/communautés">&larr; Retour à la liste des communautés</a>
+<a href="{{ site.baseurl }}/communautes">&larr; Retour à la liste des communautés</a>
 
 <div class="post">
  {% if page.picture%}
@@ -21,7 +21,7 @@ layout: default
       <li>
         <h3>
           {{ post.date | date_to_string }}
-          <a href="{{ post.url }}">
+          <a href="{{ post.url | relative_url }}">
             {{ post.title }}
           </a>
           by {{ post.author }}
